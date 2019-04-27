@@ -1,10 +1,8 @@
-// the how to play screen
-
 import React from 'react';
 import { StyleSheet, Text, View, TouchableHighlight } from 'react-native';
 
 
-// title page with play button and how to play button
+// the how to play screen
 class RulesScreen extends React.Component {
     constructor(props) {
       super(props)
