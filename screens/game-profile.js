@@ -76,7 +76,7 @@ class GameProfileScreen extends React.Component {
                 {/* button to navigate, pass in form values as props */}
                 <TouchableHighlight
                     style={styles.button}
-                    onPress={() => navigate('main-game', this.state)}
+                    onPress={() => navigate('Game', this.state)}
                 >
                     <Text style={styles.buttonText}> START GAME </Text>
                 </TouchableHighlight>
